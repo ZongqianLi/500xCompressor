@@ -90,7 +90,7 @@ Here is an example:
 
 ## 📚 Arxiv Corpus
 
-This is a collection of **Arxiv abstracts**.
+This is a collection of **Arxiv abstracts**:
 
 - **Train:** 2353924 items, based on Arxiv abstracts before 07/2023
 - **Validation:** 3000 items, based on Arxiv abstracts during 01-04/2024
@@ -104,7 +104,7 @@ This is a collection of **Arxiv abstracts**.
 
 ## 🤗 ArxivQA Dataset
 
-This is an **extractive QA dataset** created based on the abstracts of Arxiv papers.
+This is an **extractive QA dataset** created based on the abstracts of Arxiv papers:
 
 - **Train:** 250000 items, based on Arxiv abstracts before 07/2023
 - **Validation:** 1000 items, based on Arxiv abstracts before 07/2023
