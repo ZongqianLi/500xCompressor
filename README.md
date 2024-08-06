@@ -65,13 +65,13 @@ Initially, 500xCompressor was pretrained on the **Arxiv Corpus**, followed by fi
 - **Zero-shot usage:** the compressed tokens can be used by the original LLM **without being finetuned**
 - **High compression ratio:** from **6x** to **480x**
 - **Generalization ability:** could compress any **unseen** text and be used for **unseen** datasets in downstream tasks
-- **Retained capabilities:** **62.26-72.89%** of LLM abilities compared to using non-compressed prompts.
+- **Retained capabilities:** **62.26-72.89%** of LLM abilities compared to using non-compressed prompts
 
 This research gave several **insights**:
-- **Not** all the compressed tokens are **equally** utilized.
-- **K V values** have significant advantages over **embeddings** in preserving information at high compression ratios.
-- Natural language prompts are **highly compressive**.
-- **Fine-grained complex** information could be compressed and retrieved exactly as well.
+- **Not** all the compressed tokens are **equally** utilized
+- **K V values** have significant advantages over **embeddings** in preserving information at high compression ratios
+- Natural language prompts are **highly compressive**
+- **Fine-grained complex** information could be compressed and retrieved exactly as well
 
 Here is an example:
 
