@@ -58,10 +58,9 @@
 ## ✨ Introduction
 To be finished.
 
-<div>
-  <center>
-  <img src="">
-</div>
+<p align="center">
+  <img src="./Figures/cover_figure_2.png" width="50%">
+</p>
 
 <div>&nbsp;</div>
 <div>&nbsp;</div>
@@ -119,7 +118,7 @@ To be finished.
 
 <div>
   <center>
-  <img src="">
+  <img src="./Figures/mechanism.png">
 </div>
 
 ### Performance: 
@@ -127,7 +126,7 @@ To be finished.
 
 <div>
   <center>
-  <img src="">
+  <img src="./Figures/results.png">
 </div>
 
 <div>&nbsp;</div>
