@@ -11,9 +11,9 @@
 </p>
 
 <p align="center">
-  <a href="#corpora">📚Corpora</a> •
-  <a href="#datasets">🤗Datasets</a> •
-  <a href="#models">🤗Models</a> •
+  <a href="#corpus">📚Corpora</a> •
+  <a href="#dataset">🤗Datasets</a> •
+  <a href="#model">🤗Models</a> •
   <a href="#algorithm">🖥️Algorithm</a>
 </p>
 
@@ -69,7 +69,7 @@ To be finished.
 
 
 
-## 🤗 Arxiv Corpus
+## 📚 Arxiv Corpus
 
 This is a collections of Arxiv abstracts.
 
@@ -79,7 +79,7 @@ This is a collections of Arxiv abstracts.
 
 <div>&nbsp;</div>
 <div>&nbsp;</div>
-<div id="citation">&nbsp;</div>
+<div id="corpus">&nbsp;</div>
 
 
 
@@ -93,11 +93,11 @@ This is an extractive QA dataset created based on the abstracts of Arxiv papers.
 
 <div>&nbsp;</div>
 <div>&nbsp;</div>
-<div id="citation">&nbsp;</div>
+<div id="dataset">&nbsp;</div>
 
 
 
-## 🤗 500xCompressor for Prompt Compression
+## 🤗 500xCompressor
 ### Quick use:
 ```
 # codes
@@ -116,12 +116,15 @@ To be finished.
 
 <div>&nbsp;</div>
 <div>&nbsp;</div>
-<div id="algorithm">&nbsp;</div>
+<div id="model">&nbsp;</div>
 
 
 
 ## 💾 Download
-- [Solar Cell QA Datasets Collection (3*Datasets)]()
+The models are the LORA parameters for finetuning LLaMa-3-8b-Instruct. Regeneration means pretraining the compression model to regenerate the original text based on the compressed tokens. QA means finetuning the compression model for extractive QA based on the compressed tokens. 500->1 means 500 tokens in the original text are compressed into 1 special token.
+- [ArxivQA Dataset](https://huggingface.co/datasets/ZongqianLi/ArxivQA)
+- [Ours: 500xCompressor Regeneration & QA (500->16, 500->4, 500->1) (2*3 models)](https://huggingface.co/collections/ZongqianLi/500xcompressor-66b24b2db2efe5732539a3d3)
+- [Baselines: ICAE Regeneration & QA (500->16, 500->4, 500->1) (2*3 models)](https://huggingface.co/collections/ZongqianLi/icae-66b250fdc40442c79e9fb88c)
 
 <div>&nbsp;</div>
 <div>&nbsp;</div>
