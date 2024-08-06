@@ -56,7 +56,25 @@
 
 
 ## ✨ Introduction
-Prompt compression is crucial for enhancing inference speed, reducing costs, and improving user experience. However, current methods face challenges such as low compression ratios and potential data leakage during evaluation. To address these issues, we propose 500xCompressor, a method that compresses extensive natural language contexts into a minimum of one single special token. The 500xCompressor introduces approximately 0.3% additional parameters and achieves compression ratios ranging from 6x to 480x. It is designed to compress any text, answer various types of questions, and could be utilized by the original large language model (LLM) without requiring fine-tuning. Initially, 500xCompressor was pretrained on the Arxiv Corpus, followed by fine-tuning on the ArxivQA dataset, and subsequently evaluated on strictly unseen and classical question answering (QA) datasets. The results demonstrate that the LLM retained 62.26-72.89% of its capabilities compared to using non-compressed prompts. This study also shows that not all the compressed tokens are equally utilized and that K V values have significant advantages over embeddings in preserving information at high compression ratios. The highly compressive nature of natural language prompts, even for fine-grained complex information, suggests promising potential for future applications and further research into developing a new LLM language.
+
+500xCompressor is a **prompt compression method** that could compresss a maximum of 500 natural language tokens into only one special token. This compressed token could **regenerate** the original text or be used for **question answering (QA)**.
+
+Initially, 500xCompressor was pretrained on the **Arxiv Corpus**, followed by fine-tuning on the **ArxivQA dataset**, and subsequently evaluated on various **strictly unseen** and **classical** **QA** datasets.
+
+500xCompressor has several **features and advantages**:
+- **Small additional parameters:** only **0.3% extra** parameters are added to the LLM
+- **Zero-shot usage:** the compressed tokens can be used by the original LLM **without being finetuned**
+- **High compression ratio:** from **6x** to **480x**
+- **Generalization ability:** could compress any **unseen** text and be used for **unseen** datasets in downstream tasks
+- **Retained capabilities:** **62.26-72.89%** of LLM abilities compared to using non-compressed prompts.
+
+This research gave several **insights**:
+- **Not** all the compressed tokens are **equally** utilized.
+- **K V values** have significant advantages over **embeddings** in preserving information at high compression ratios.
+- Natural language prompts are **highly compressive**.
+- **Fine-grained complex** information could be compressed and retrieved exactly as well.
+
+Here is an example:
 
 <p align="left">
   <img src="./Figures/cover_figure_2.png" width="30%">
@@ -70,7 +88,7 @@ Prompt compression is crucial for enhancing inference speed, reducing costs, and
 
 ## 📚 Arxiv Corpus
 
-This is a collections of Arxiv abstracts.
+This is a collections of **Arxiv abstracts**.
 
 - **Train:** 2353924 items, based on Arxiv abstracts before 07/2023
 - **Validation:** 3000 items, based on Arxiv abstracts during 01-04/2024
@@ -84,7 +102,7 @@ This is a collections of Arxiv abstracts.
 
 ## 🤗 ArxivQA Dataset
 
-This is an extractive QA dataset created based on the abstracts of Arxiv papers.
+This is an **extractive QA dataset** created based on the abstracts of Arxiv papers.
 
 - **Train:** 250000 items, based on Arxiv abstracts before 07/2023
 - **Validation:** 1000 items, based on Arxiv abstracts before 07/2023
