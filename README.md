@@ -57,7 +57,7 @@
 
 ## ✨ Introduction
 
-500xCompressor is a **prompt compression method** that could compresss a maximum of 500 natural language tokens into only one special token. This compressed token could **regenerate** the original text or be used for **question answering (QA)**.
+**500xCompressor** is a **prompt compression method** that could compresss a maximum of 500 natural language tokens into only one special token. This compressed token could **regenerate** the original text or be used for **question answering (QA)**.
 
 Initially, 500xCompressor was pretrained on the **Arxiv Corpus**, followed by fine-tuning on the **ArxivQA dataset**, and subsequently evaluated on various **strictly unseen** and **classical** **QA** datasets.
 
