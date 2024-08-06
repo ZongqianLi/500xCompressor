@@ -38,7 +38,7 @@
 
 
 ## 🚀 News
-- **[2024.06.26]** Create the github page!
+- **[2024.08.06]** The paper was uploaded to Arxiv.
 
 <div>&nbsp;</div>
 <div>&nbsp;</div>
@@ -47,7 +47,7 @@
 
 
 ## ✏️ Todo
-- [x] Create the github page!
+- [ ] Datasets and models were uploaded to Huggingface but are not open to the public.
 
 <div>&nbsp;</div>
 <div>&nbsp;</div>
