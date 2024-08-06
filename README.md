@@ -13,8 +13,7 @@
 <p align="center">
   <a href="#corpus">📚Corpus</a> •
   <a href="#dataset">🤗Dataset</a> •
-  <a href="#model">🤗Models</a> •
-  <a href="#algorithm">🖥️Algorithm</a>
+  <a href="#model">🤗Models</a>
 </p>
 
 <p align="center">
