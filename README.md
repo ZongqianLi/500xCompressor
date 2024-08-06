@@ -56,15 +56,15 @@
 
 
 ## ✨ Introduction
-To be finished.
+Prompt compression is crucial for enhancing inference speed, reducing costs, and improving user experience. However, current methods face challenges such as low compression ratios and potential data leakage during evaluation. To address these issues, we propose 500xCompressor, a method that compresses extensive natural language contexts into a minimum of one single special token. The 500xCompressor introduces approximately 0.3% additional parameters and achieves compression ratios ranging from 6x to 480x. It is designed to compress any text, answer various types of questions, and could be utilized by the original large language model (LLM) without requiring fine-tuning. Initially, 500xCompressor was pretrained on the Arxiv Corpus, followed by fine-tuning on the ArxivQA dataset, and subsequently evaluated on strictly unseen and classical question answering (QA) datasets. The results demonstrate that the LLM retained 62.26-72.89% of its capabilities compared to using non-compressed prompts. This study also shows that not all the compressed tokens are equally utilized and that K V values have significant advantages over embeddings in preserving information at high compression ratios. The highly compressive nature of natural language prompts, even for fine-grained complex information, suggests promising potential for future applications and further research into developing a new LLM language.
 
-<p align="center">
-  <img src="./Figures/cover_figure_2.png" width="50%">
+<p align="left">
+  <img src="./Figures/cover_figure_2.png" width="30%">
 </p>
 
 <div>&nbsp;</div>
 <div>&nbsp;</div>
-<div id="corpora">&nbsp;</div>
+<div id="corpus">&nbsp;</div>
 
 
 
@@ -78,7 +78,7 @@ This is a collections of Arxiv abstracts.
 
 <div>&nbsp;</div>
 <div>&nbsp;</div>
-<div id="corpus">&nbsp;</div>
+<div id="dataset">&nbsp;</div>
 
 
 
@@ -92,7 +92,7 @@ This is an extractive QA dataset created based on the abstracts of Arxiv papers.
 
 <div>&nbsp;</div>
 <div>&nbsp;</div>
-<div id="dataset">&nbsp;</div>
+<div id="model">&nbsp;</div>
 
 
 
@@ -114,24 +114,24 @@ This is an extractive QA dataset created based on the abstracts of Arxiv papers.
 ```
 
 ### Training process: 
-To be finished.
 
-<div>
-  <center>
-  <img src="./Figures/mechanism.png">
-</div>
+The compression model was pretrained on the **Arxiv Corpus** for **regenerating** the original text according to the compressed tokens. Then, it was finetuned on the **ArxivQA Dataset** for **answering the questions** based on the compressed tokens.
+
+<p align="left">
+  <img src="./Figures/mechanism.png" width="100%">
+</p>
 
 ### Performance: 
-To be finished.
 
-<div>
-  <center>
-  <img src="./Figures/results.png">
-</div>
+The compression models were evaluated on various **strictly unseen** and **classic** QA benchmarks.
+
+<p align="left">
+  <img src="./Figures/results.png" width="80%">
+</p>
 
 <div>&nbsp;</div>
 <div>&nbsp;</div>
-<div id="model">&nbsp;</div>
+<div id="download">&nbsp;</div>
 
 
 
