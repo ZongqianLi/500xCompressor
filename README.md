@@ -68,6 +68,7 @@ Initially, 500xCompressor was pretrained on the **Arxiv Corpus**, followed by fi
 - **Zero-shot usage:** the compressed tokens can be used by the original LLM **without being finetuned**
 - **High compression ratio:** from **6x** to **480x**
 - **Generalization ability:** could compress any **unseen** text and be used for **unseen** datasets in downstream tasks
+- **Non-selective:** compress **all** the tokens in the prompt instead of choosing partial tokens
 - **Retained capabilities:** **62.26-72.89%** of LLM abilities compared to using non-compressed prompts
 
 This research gave several **insights**:
