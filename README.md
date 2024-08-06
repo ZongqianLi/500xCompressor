@@ -123,6 +123,8 @@ This is an **extractive QA dataset** created based on the abstracts of Arxiv pap
 # output
 ```
 
+<div>&nbsp;</div>
+
 ### Quick use for QA:
 ```
 # codes
@@ -131,6 +133,8 @@ This is an **extractive QA dataset** created based on the abstracts of Arxiv pap
 # output
 ```
 
+<div>&nbsp;</div>
+
 ### Training process: 
 
 The compression model was pretrained on the **Arxiv Corpus** for **regenerating** the original text according to the compressed tokens. Then, it was finetuned on the **ArxivQA Dataset** for **answering the questions** based on the compressed tokens.
@@ -138,6 +142,8 @@ The compression model was pretrained on the **Arxiv Corpus** for **regenerating*
 <p align="left">
   <img src="./Figures/mechanism.png" width="100%">
 </p>
+
+<div>&nbsp;</div>
 
 ### Performance: 
 
