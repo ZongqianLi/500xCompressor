@@ -77,7 +77,7 @@ This research gave several **insights**:
 Here is an example:
 
 <p align="left">
-  <img src="./Figures/cover_figure_2.png" width="30%">
+  <img src="./Figures/cover_figure_2.png" width="40%">
 </p>
 
 <div>&nbsp;</div>
