@@ -98,13 +98,29 @@ This is an extractive QA dataset created based on the abstracts of Arxiv papers.
 
 
 ## 🤗 500xCompressor
-### Quick use:
+### Quick use for regeneration:
 ```
 # codes
 ```
 ```
 # output
 ```
+
+### Quick use for QA:
+```
+# codes
+```
+```
+# output
+```
+
+### Training process: 
+To be finished.
+
+<div>
+  <center>
+  <img src="">
+</div>
 
 ### Performance: 
 To be finished.
