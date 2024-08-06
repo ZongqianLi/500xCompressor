@@ -37,6 +37,7 @@
 
 
 ## 🚀 News
+
 - **[2024.08.06]** The paper was uploaded to Arxiv.
 
 <div>&nbsp;</div>
@@ -46,6 +47,7 @@
 
 
 ## ✏️ Todo
+
 - [ ] Datasets and models were uploaded to Huggingface but are not open to the public.
 
 <div>&nbsp;</div>
@@ -114,6 +116,7 @@ This is an **extractive QA dataset** created based on the abstracts of Arxiv pap
 
 
 ## 🤗 500xCompressor
+
 ### Quick use for regeneration:
 ```
 # codes
@@ -159,6 +162,7 @@ The compression models were evaluated on various **strictly unseen** and **class
 
 
 ## 💾 Download
+
 The models are the **LORA** parameters for finetuning LLaMa-3-8b-Instruct. **Regeneration** means pretraining the compression model to regenerate the original text based on the compressed tokens. **QA** means finetuning the compression model for extractive QA based on the compressed tokens. **500->X** means 500 tokens in the original text are compressed into X special token.
 - [ArxivQA Dataset](https://huggingface.co/datasets/ZongqianLi/ArxivQA)
 - [Ours: 500xCompressor Regeneration & QA (500->16, 500->4, 500->1) (2*3 models)](https://huggingface.co/collections/ZongqianLi/500xcompressor-66b24b2db2efe5732539a3d3)
@@ -171,6 +175,7 @@ The models are the **LORA** parameters for finetuning LLaMa-3-8b-Instruct. **Reg
 
 
 ## 📌 Citation
+
 ```
 cite
 ```
@@ -182,7 +187,10 @@ cite
 
 
 ## 🔖 License
-```
-license
-```
+
+This project is licensed under the Creative Commons Attribution 4.0 International License - see the [LICENSE]([LICENSE](https://creativecommons.org/licenses/by/4.0/deed.en)) for details.
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
+
 
