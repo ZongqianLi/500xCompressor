@@ -1,4 +1,4 @@
-# 🎓 500xCompressor: Generalized and Non-retrieval Prompt Compression for Large Language Models
+# ♟️ 500xCompressor: Generalized and Non-retrieval Prompt Compression for Large Language Models
 
 <p align="center">
   <b>Content</b>
