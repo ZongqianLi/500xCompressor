@@ -11,8 +11,8 @@
 </p>
 
 <p align="center">
-  <a href="#corpus">📚Corpora</a> •
-  <a href="#dataset">🤗Datasets</a> •
+  <a href="#corpus">📚Corpus</a> •
+  <a href="#dataset">🤗Dataset</a> •
   <a href="#model">🤗Models</a> •
   <a href="#algorithm">🖥️Algorithm</a>
 </p>
