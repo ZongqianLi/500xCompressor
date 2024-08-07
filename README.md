@@ -179,7 +179,15 @@ The models are the **LORA** parameters for finetuning LLaMa-3-8b-Instruct. **Reg
 ## 📌 Citation
 
 ```
-cite
+@misc{li2024500xcompressorgeneralizedpromptcompression,
+      title={500xCompressor: Generalized Prompt Compression for Large Language Models}, 
+      author={Zongqian Li and Yixuan Su and Nigel Collier},
+      year={2024},
+      eprint={2408.03094},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2408.03094}, 
+}
 ```
 
 <div>&nbsp;</div>
