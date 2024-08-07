@@ -157,6 +157,18 @@ The compression models were evaluated on various **strictly unseen** and **class
   <img src="./Figures/results.png" width="80%">
 </p>
 
+The detailed results for **ArxivQA**:
+
+<p align="left">
+  <img src="./Figures/arxivqa_results.png" width="80%">
+</p>
+
+Here is an **example**:
+
+<p align="left">
+  <img src="./Figures/example.png" width="80%">
+</p>
+
 <div>&nbsp;</div>
 <div>&nbsp;</div>
 <div id="download">&nbsp;</div>
