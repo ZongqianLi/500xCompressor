@@ -28,8 +28,8 @@
 
 <p align="center">
   <a href="">Project Page</a> •
-  <a href="https://huggingface.co/spaces/ZongqianLi/SolarCellBERT">Demo Page</a> •
-  <a href="">Paper</a>
+  <a href="">Demo Page</a> •
+  <a href="https://arxiv.org/abs/2408.03094">Paper</a>
 </p>
 
 <div id="news">&nbsp;</div>
