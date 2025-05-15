@@ -38,6 +38,7 @@
 
 ## 🚀 News
 
+- **[2025.05.15]** The paper was accepted by ACL 2025 Main.
 - **[2024.08.06]** The paper was uploaded to Arxiv.
 
 <div>&nbsp;</div>
