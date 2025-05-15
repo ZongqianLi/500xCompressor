@@ -1,4 +1,4 @@
-# ♟️ 500xCompressor: Generalized Prompt Compression for Large Language Models
+# [ACL 2025 Main] ♟️ 500xCompressor: Generalized Prompt Compression for Large Language Models
 
 <p align="center">
   <b>Content</b>
