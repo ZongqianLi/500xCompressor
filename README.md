@@ -205,6 +205,8 @@ Here is an **example**:
 
 ## 💾 Download
 
+> Datasets and models were uploaded to Huggingface but are not open to the public.
+
 The models are the **LORA** parameters for finetuning LLaMa-3-8b-Instruct. **Regeneration** means pretraining the compression model to regenerate the original text based on the compressed tokens. **QA** means finetuning the compression model for extractive QA based on the compressed tokens. **500->X** means 500 tokens in the original text are compressed into X special token.
 - [ArxivQA Dataset](https://huggingface.co/datasets/ZongqianLi/ArxivQA)
 - [Ours: 500xCompressor Regeneration & QA (500->16, 500->4, 500->1) (2*3 models)](https://huggingface.co/collections/ZongqianLi/500xcompressor-66b24b2db2efe5732539a3d3)
